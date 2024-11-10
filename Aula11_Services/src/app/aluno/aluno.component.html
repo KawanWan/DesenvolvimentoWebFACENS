@@ -1,0 +1,31 @@
+<p>aluno works!</p>
+<form #form="ngForm" (ngSubmit)="getAlunoById(form)">
+    <input type="text" #id="ngModel" name="id" ngModel>
+    <button type="submit">Buscar</button>
+  </form>
+  
+  <br><br>
+  <!-- form para cadastrar aluno -->
+  <form #formCadastrar="ngForm" (ngSubmit)="cadastrarAluno(formCadastrar)">
+    <input type="text" #nome="ngModel" name="nome" ngModel>
+    <input type="text" #preco="ngModel" name="idade" ngModel>
+    <input type="text" #preco="ngModel" name="ra" ngModel>
+    <button type="submit">Cadastrar</button>
+  </form>
+  
+  <br>
+  <!-- form apagar aluno por id-->
+  <form #formApagar="ngForm" (ngSubmit)="apagarAluno(formApagar)">
+    <input type="text" #idApagar="ngModel" name="id" ngModel>
+    <button type="submit">Apagar</button>
+  </form>
+  
+  <br><br>
+  <!-- form para editar aluno -->
+  <form #formEditar="ngForm" (ngSubmit)="editarAluno(formEditar)">
+    <input type="text" #idApagar="ngModel" name="id" ngModel>
+    <input type="text" #nome="ngModel" name="nome" ngModel>
+    <input type="text" #preco="ngModel" name="idade" ngModel>
+    <input type="text" #preco="ngModel" name="ra" ngModel>
+    <button type="submit">Editar</button>
+  </form>

@@ -1,0 +1,15 @@
+{
+  "name": "aula7_node",
+  "version": "1.0.0",
+  "description": "aula 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": "Kawan Wan",
+  "license": "ISC",
+  "dependencies": {
+    "aula7_node": "file:",
+    "express": "^4.21.1"
+  }
+}

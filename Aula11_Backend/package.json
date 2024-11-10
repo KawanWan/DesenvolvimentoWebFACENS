@@ -1,0 +1,17 @@
+{
+  "name": "aula11_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "author": "Kawan Wan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aula11_backend": "file:",
+    "express": "^4.21.1",
+    "json-server": "^1.0.0-beta.3",
+    "nodemon": "^3.1.7"
+  }
+}

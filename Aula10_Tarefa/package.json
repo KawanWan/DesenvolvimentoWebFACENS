@@ -1,0 +1,18 @@
+{
+  "name": "aula10_tarefa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Kawan Wan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aula10_tarefa": "file:",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7"
+  }
+}

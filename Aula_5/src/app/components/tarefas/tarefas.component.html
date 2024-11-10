@@ -1,0 +1,16 @@
+<h2>Lista de Tarefas</h2>
+
+<ul>
+  <li *ngFor="let tarefa of tarefas">
+
+    <p [ngStyle]="{'text-decoration': tarefa.concluida ? 'line-through' : 'none'}">
+      {{ tarefa.descricao }}
+    </p>
+
+    <button (click)="alternarTarefa(tarefa)"
+            [ngStyle]="{'background-color': tarefa.concluida ? 'gray' : 'green', 'color': 'white'}">
+      {{ tarefa.concluida ? 'Ativar' : 'Concluir' }}
+    </button>
+
+  </li>
+</ul>
